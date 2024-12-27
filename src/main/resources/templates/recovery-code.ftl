@@ -61,9 +61,9 @@
     </div>
     <div class="email-body">
         <p>${helloMessage},</p>
-        <p>${message_1}</p>
+        <p>${message1}</p>
         <span class="recovery-code">${recoveryCode}</span>
-        <p>${message_2}</p>
+        <p>${message2}</p>
     </div>
     <div class="email-footer">
         <p>&copy; 2024 Rasmoo Plus. ${rightsReserved}</p>
