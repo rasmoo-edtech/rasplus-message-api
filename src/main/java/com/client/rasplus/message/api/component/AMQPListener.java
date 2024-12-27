@@ -14,7 +14,7 @@ public class AMQPListener {
 
     @RabbitListener(queues = "recovery.code.email")
     public void recoveryCodeListener(UserRecoveryCodeDto dto) {
-        mailIntegration.send(dto.email(), dto.code(), "Código de Recuperação de conta");
+        mailIntegration.sendHtmlTemplate(dto.email(), "Código de Recuperação de conta");
 
     }
 
